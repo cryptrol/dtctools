@@ -14,8 +14,14 @@ Example contents of the `datacoin.conf` file :
     rpcpassword=a_random_password
     server=1
 
-
 # Usage
+
+In order to build this tool you will need a working GO environment, and then :
+
+    git clone https://github.com/cryptrol/dtctools
+    cd dtctools
+    go get github.com/golang/protobuf/proto
+    go install
 
 For help using dtctools type :
 
